@@ -193,7 +193,7 @@ async def get_html(ctx, url:str):
         file.write(page.text)
     await ctx.send(file=File("page.txt"))
 
-openai.api_key = "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"
+openai.api_key = "AİKEY"
 
 @client.command(name='chat')
 async def chat(ctx, *, message):
